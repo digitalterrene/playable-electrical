@@ -8,15 +8,15 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#/', current: true },
-  { name: 'Services', href: '#courses', current: false },
-  { name: 'Portfolio', href: '#mentor', current: false },
-  { name: 'Our Team', href: '/', current: false },
-  // { name: 'Contact Us', href: '#testimonial', current: false },
-]
+  { name: "Home", href: "#/", current: true },
+  { name: "About Us", href: "#about-us", current: false },
+  { name: "Services", href: "#domestic-electrical", current: false },
+  { name: "Portfolio", href: "#portfolio", current: false },
+  { name: "Our Team", href: "#our-team", current: false },
+];
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const Data = () => {
@@ -30,10 +30,12 @@ const Data = () => {
                 key={item.name}
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-black hover:opacity-100' : 'hover:text-black hover:opacity-100',
-                  'py-1 text-lg font-normal opacity-75 block'
+                  item.current
+                    ? "text-black hover:opacity-100"
+                    : "hover:text-black hover:opacity-100",
+                  "py-1 text-lg font-normal opacity-75 block"
                 )}
-                aria-current={item.current ? 'page' : undefined}
+                aria-current={item.current ? "page" : undefined}
               >
                 {item.name}
               </Link>
@@ -43,13 +45,13 @@ const Data = () => {
               Showcase
             </button>
             <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
-            Contact Us
+              Contact Us
             </button>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Data;
