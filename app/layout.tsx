@@ -16,14 +16,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
   return (
     <html lang="en">
       <body>
         <BannerOne />
         <div className="bg-gradient-to-tr from-[#ff80b5]/10 to-[#9089fc]/10 ">
           <Navbar />
-          {pathname !== "/contact-us" && <HeroOne />}
+          <HeroOne />
         </div>
         {children}
         <FooterCTA />
