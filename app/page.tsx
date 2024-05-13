@@ -1,20 +1,27 @@
-import Banner from './components/Banner/index';
-import Companies from './components/Companies/Companies';
-import Courses from './components/Courses/index';
-import Mentor from './components/Mentor/index';
-import Testimonials from './components/Testimonials/index';
-import Newsletter from './components/Newsletter/Newsletter';
-
+import Mentor from "./components/Team/index";
+import Testimonials from "./components/Testimonials/index";
+import Portfolio from "./components/Portfolio";
+import FAQ from "./components/FAQ";
+import ServicesHeaders from "./components/ServicesHeaders/index";
+import DomesticElectrical from "./components/Services/DomesticElectrical";
+import IndustrialElectrical from "./components/Services/IndustrialElectrical";
+import CertificateOfCompliance from "./components/Services/CertificateOfCompliance";
+import WhyChooseUs from "./components/WhyChooseUs";
+import AboutUs from "./components/AboutUs";
 
 export default function Home() {
   return (
     <main>
-      <Banner />
-      <Companies />
-      <Courses />
+      <ServicesHeaders />
+      <WhyChooseUs />
+      <DomesticElectrical />
+      <IndustrialElectrical />
+      <CertificateOfCompliance />
+      <AboutUs />
       <Mentor />
       <Testimonials />
-      <Newsletter />
+      <Portfolio />
+      <FAQ />
     </main>
-  )
+  );
 }
