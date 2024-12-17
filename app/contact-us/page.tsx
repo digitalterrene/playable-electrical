@@ -180,13 +180,13 @@ export default function ContactUs() {
                 <div className="text-base leading-7">
                   <h3 className="font-semibold text-white">Lucky Chabuda</h3>
                   <p className="mt-2 text-gray-300">
-                    071 178 4858 || 081 473 3874
+                    +27 68 379 3865
                     <br />
                     <a
                       className="text-white hover:text-gray-300"
                       href="mailto:sales@example.com"
                     >
-                      luckymaboneng@gmail.com
+                     info@larrykingstone.com
                     </a>
                   </p>
                 </div>
@@ -199,13 +199,13 @@ export default function ContactUs() {
                 <div className="text-base leading-7">
                   <h3 className="font-semibold text-white">Cindy</h3>
                   <p className="mt-2 text-gray-300">
-                    071 214 0953
+                    +27 68 379 3865
                     <br />
                     <a
                       className="text-white hover:text-gray-300"
                       href="mailto:support@example.com"
                     >
-                      nkoecindy@gmail.com
+                      info@larrykingstone.com
                     </a>
                   </p>
                 </div>
@@ -218,9 +218,9 @@ export default function ContactUs() {
                 <div className="text-base leading-7">
                   <h3 className="font-semibold text-white">Address</h3>
                   <p className="mt-2 text-gray-300">
-                    21 Cnr Main & Kruger Str
+                     Cnr Main & Kruger Str
                     <br />
-                    Mabonebg Precinct & Surbaban, JHB
+                      Johannesburg
                   </p>
                 </div>
               </div>
